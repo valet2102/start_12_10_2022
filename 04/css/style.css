@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(223, 217, 217);
+ 
+}
+
+div.dia,
+div.circle,
+div.square {
+    width: 512px;
+    height: 512px;
+ 
+}
+
+.dia {
+    top:100px;
+    left:100px;
+    position: relative;
+    background-color: #000000;
+ 
+}
+
+.dia_img {
+    position: relative;
+    top: 128.64px;
+    left: 101px;
+    right: 101.28px;
+}
+
+.flag {
+    position: absolute;
+    bottom: 109px;
+
+    left: 216px;
+}
+
+.square {
+    
+    position: relative;
+    background-color: #FFCE22;
+    top: 213.12px;
+    left: 441px;
+   
+}
+
+div.square>div.Glyph {
+    position: relative;
+    bottom: 132.18px;
+    left: 52px;
+
+}
+
+.circle {
+    z-index: -1;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    left: 423px;
+    top: -95px;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-left: 2px solid rgba(128, 128, 128, 0.5);
+    border-right: 2px solid rgba(128, 128, 128, 0.5);
+   
+}
+
+.circle_in_circle {
+    position: relative;
+    width: 444px;
+    height: 444px;
+    background-color: #FFCE22;
+    border-radius: 50%;
+    top:34px;
+    left: 34px;
+    overflow: hidden;
+    
+}
+#blue_part{
+ 
+   width: 444px;
+}
+#Glyph{
+    position: absolute;
+    width: 358px;
+    height: 203px;
+    bottom: 32px;
+    left: 44px;
+}
+
+
+
