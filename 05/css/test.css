@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body,
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------Landing Title-----------  */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    float: left;
+    font-size: 27px;
+    font-weight: 600;
+    margin: 16px 0 16px 12px;
+}
+
+.all_menu {
+    float: right;
+    margin-top: 16px;
+}
+
+div.buy_button,div.main_menu {
+    display: inline-block;
+}
+
+.main_menu>ul>li {
+    display: inline;
+    margin: 10px 0 10px 30px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+button {
+    padding: 10px 16px;
+}
+
+.button_buy {
+    margin: 0 12px 0 30px;
+    border: 1px solid #2203E4;
+    font-size: 21px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    color: #2203E4;
+}
+
+.content_center {
+    width: 1300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.write {
+    display: inline-block;
+    margin: 266px 0px 0px 100px;
+    vertical-align: top;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 47px;
+}
+
+.write>p {
+    margin-top: 24px;
+}
+
+.p {
+    font-weight: 400;
+    font-size: 16 px;
+}
+
+.Authors_button {
+    background-color: #0062FF;
+    color: #FFFFFF;
+    border: 0;
+    margin: 24px 24px 0 0;
+}
+
+.Check_demo_button {
+    border: 1px solid #575757;
+    color: #575757;
+    background-color: #FFFFFF;
+}
+
+.phone {
+    display: inline-block;
+    margin: 120px 0px 0px 58px;
+}
+
+._2_3_title {
+    margin-top: 80px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.Authors {
+    text-align: center;
+}
+
+.Authors>p {
+    margin-top: 12px;
+}
+
+h4 {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.avatar {
+    margin-right: 46px;
+}
+
+._3_3_title {
+    padding-bottom: 146px;
+}
+
+.avatar,
+.avatar_name {
+    display: inline-block;
+}
+
+.px24 {
+    margin-top: 24px;
+}
+
+.px12 {
+    margin-top: 12px;
+}
+
+.px16 {
+    margin-top: 16px;
+}
+
+.px8 {
+    margin-top: 8px;
+}
+
+.avatar_skills {
+
+    float: right;
+}
+
+.avatar_skills>div:nth-child(2) {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.avatar_skills>div:nth-child(2)::before {
+    content: url(img/left_mark.png);
+    position: absolute;
+    left: -15px;
+    top: 20px;
+}
+
+.avatar_skills>div:first-child>h5,
+.avatar_skills>div:last-child>h5 {
+    color: #DEA405;
+}
+
+.avatar_skills>div:first-child>p,
+.avatar_skills>div:last-child>p {
+    color: #FFBE0B;
+}
+
+.social>ul>li {
+    margin-right: 19px;
+    display: inline-block;
+}
+
+/* -----------------For who------------------ */
+
+.for_who {
+    background-color: #0062FF;
+    width: 100%;
+}
+
+.for_who_title {
+    padding-top: 71px;
+    margin-bottom: 64px;
+}
+
+.content_for_who {
+    background-color: #0062FF;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.for_who_title>p {
+    text-align: center;
+}
+
+.left_float {
+    float: left;
+}
+
+.right_float {
+    float: right;
+}
+
+.students {
+    position: relative;
+
+}
+
+.row_students {
+    position: relative;
+    text-align: left;
+}
+
+.students_in {
+    margin-left: 34px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.h4_14px {
+    margin-top: 14px;
+}
+
+.row2 {
+    margin-top: 46px;
+}
+
+.button_for_students {
+    display: inline-block;
+    margin: 64px auto 71px;
+}
+
+.button_want {
+    color: #2203E4;
+    background-color: #FFFFFF;
+    border: 1px solid #2203E4;
+}
+
+/* --------------Check demo---------------- */
+.content_demo {
+    text-align: center;
+}
+
+.demo_title {
+    margin-top: 63px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.inside {
+    margin-bottom: 130px;
+}
+
+.demo_info {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 48px;
+    margin-top: 11.5px;
+}
+
+.img_triangle {
+    display: inline-block;
+}
+
+/* -------------Opinions---------------- */
+
+.opinions {
+    background-color: #FFBE0B;
+    text-align: center;
+}
+
+.content_opinions {
+    background-color: #FFBE0B;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1249px;
+    padding-top: 67px;
+    padding-bottom: 67px;
+}
+
+.opinion_comment {
+    position: relative;
+    margin-top: 42px;
+    padding: 59.5px 16px 59.5px 16px;
+    display: inline-block;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+
+.opinion_comment::after {
+    content: url('img/Frame\ 38.png');
+    position: absolute;
+    top: -18px;
+    left: 696px;
+    opacity: 0.4;
+}
+
+.opinion_comment::before {
+    content: url('img/Frame\ 38.png');
+    position: absolute;
+    top: -18px;
+    left: -752px;
+    opacity: 0.4;
+}
+
+.blue_thing {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    margin-right: 12px;
+}
+
+.com_in {
+    display: inline-block;
+    text-align: left;
+}
+
+.com_in>h4::after {
+    content: url('img/stars.png');
+    vertical-align: middle;
+    margin-left: 7px;
+}
+
+/* -------------Start with us------------ */
+
+.content_start_with_us {
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.start_title {
+    margin-top: 89px;
+    margin-bottom: 75px;
+}
+
+.phone_img {
+    display: inline-block;
+}
+
+.My_product_title {
+    vertical-align: top;
+    margin-top: 72.46px;
+    margin-left: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.Button_add_to_card {
+    background-color: #0062FF;
+    padding: 10px 16px;
+    color: #FFFFFF;
+}
+
+.discount {
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+.email_input {
+    margin: 28px auto 14px;
+    background: rgba(58, 134, 255, 0.2);
+    border-radius: 12px;
+    border: none;
+    padding: 25px 286px 26px 24px;
+    display: block;
+}
+
+.email_input::placeholder {
+    color: #2203E4;
+}
+
+.email_submit {
+    padding: 10px 160.5px;
+    border: none;
+    margin: 0 auto;
+    background-color: #0062FF;
+    color: #FFFFFF;
+    display: block;
+}

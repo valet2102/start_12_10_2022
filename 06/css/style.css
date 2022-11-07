@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Main___page{
+    background: url("../img/Rectangle\ 4.png") 112.33% 115px/ 56% no-repeat,
+    url('../img/Shap.png') 0 521px/ 7% no-repeat; 
+}
+
+.container{ 
+        margin: 0 8.5%;
+}
+
+/* -------------------Header--------------------- */
+
+header{
+    top: 0;
+    background-color: #fff;
+    position: sticky;
+}
+
+.header___row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3.5%;
+    padding-bottom: 1.5%;
+}
+
+.Logo{
+    padding-top: 7px;
+    color: #BC436A;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.menu___row{
+    display: flex;
+}
+
+
+.menu_column{
+    padding-top: 8px;
+}
+
+.menu_column>a{
+    color:#776677;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 40px;
+    text-decoration: none; 
+}
+
+.menu_column:first-child>a{
+    color: #BC436A;
+    font-weight: 800;
+}
+
+.menu___row>button{
+    border: none;
+    padding: 8px;
+    color: #fff;
+    background-color: #386E41;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    
+}
+/* ------Button Animation----- */
+
+.hvr-bounce-in:hover{
+    border: 1px solid black;
+   border-radius: 15%;
+    transform: scale(1.8);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.hvr-rectangle-out:hover{
+    transition: 0.5s;
+    color:black;
+}
+.hvr-rectangle-out::before{
+    background-color:#FEF9E7 ;
+}
+.btn{
+    background-color: #fff;
+    transition: 1s;
+}
+
+.btn_2{
+    transition: 1s;
+}
+
+.hvr-pulse:hover{
+    transition: 1.5s;   
+    background-color: #FE0000;
+}
+
+.hvr-pulse-shrink:hover{
+
+    transition: 1.5s;   
+background-color: #FE0000;
+}
+.footer___column:first-child:hover{
+    padding-bottom: 50px;
+    transition: 0.5s;   
+}
+.footer___column:first-child,.some___text__column,.input{
+    transition: 0.5s;   
+}
+
+.some___text__column:hover{
+    padding-right: 150px;
+    transition: 0.5s;   
+}
+
+/* ------------------Main content----------------------- */
+
+/* -------------Title---------- */
+.page___row{
+    display: flex;
+    flex-direction: column;
+}
+
+.item___title{
+font-weight: 800;
+font-size: 36px;
+}
+.item___text{
+    margin-top: 4.8%;
+    font-weight: 400;
+    font-size: 18px;
+}
+span{
+    color:#BC436A;
+}
+
+.page___row>.page____column:first-child{
+    margin-top: 16%;
+    margin-bottom: 20%;
+    align-self:flex-start;
+    width: 40%;
+}
+
+.page___row>.page____column:last-child{
+ background-color: #386E41;
+ border-radius: 8px;
+}
+
+
+
+/* --------Some text in the middle----------- */
+.some___text__row{
+    display: flex;
+    padding-bottom: 3%;
+   
+}
+.some___text__column{
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 3%;
+}
+.some___img__column{
+    align-self: center;
+}
+.some___img__column>img{
+    vertical-align: middle;
+}
+
+/*------Choose country, city, place------*/
+
+.item___row____2{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5% 2.75% 2.5% 3.2%;
+}
+.item___row____2>div.input{
+    padding-top:0.33%;
+    padding-bottom: 0.66%;
+    position: relative;
+    width: 20%;
+    border-bottom: 2px solid #fff;
+}
+.item___row____2>div:last-child{
+    background-color: #BC436A;
+    border-radius: 4px;
+}
+
+.input>input{
+    background-color: #386E41;
+    border: none;
+    width: 80%;
+}
+.input>input::placeholder{
+    color:#fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.input::after{
+    content: url('../img/arrow_to_down.png');
+    position: absolute;
+    vertical-align: top;
+    right: 7.2%;
+}
+.item___row____2>button{
+    font-weight: 400;
+    font: 18px;
+    padding: 8px 21px;
+    background-color: #BC436A;
+    border: none;
+    border-radius: 4px;
+    color:#fff
+}
+
+/* -----------------Footer------------------- */
+.footer____row{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 7.5%;
+   padding-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
